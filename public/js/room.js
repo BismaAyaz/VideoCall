@@ -1,4 +1,8 @@
-const socket = io('videocall-fc57a.web.app');
+document.addEventListener('DOMContentLoaded', () => {
+    const socket = io('https://videocall-fc57a.web.app');
+    // Your socket.io code here
+  });  
+const socket = io('https://videocall-fc57a.web.app');
 const myvideo = document.querySelector("#vd1");
 const roomid = params.get("room");
 let username;
